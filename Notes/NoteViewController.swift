@@ -27,7 +27,7 @@ class NoteViewController: UIViewController, UITextViewDelegate, UITextFieldDeleg
     }
     override func viewWillAppear(_ animated: Bool) {
         titleTF.delegate = self
-        titleTF.layer.borderWidth = 0.0
+        titleTF.layer.borderColor = UIColor.clear.cgColor
         detail.delegate = self
         deleteButton.isEnabled = false
         

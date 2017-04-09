@@ -110,12 +110,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="x86-QW-fhz">
-                                <rect key="frame" x="8" y="44" width="359" height="623"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lg7-F0-sLq">
                                 <rect key="frame" x="8" y="117" width="359" height="1"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -132,6 +126,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="x86-QW-fhz">
+                                <rect key="frame" x="8" y="123" width="359" height="544"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -139,12 +139,12 @@
                             <constraint firstItem="Lg7-F0-sLq" firstAttribute="top" secondItem="cq2-x6-ymr" secondAttribute="bottom" id="3iI-Pq-P6x"/>
                             <constraint firstItem="x86-QW-fhz" firstAttribute="leading" secondItem="reh-uc-5wY" secondAttribute="leading" constant="8" id="CBs-co-rrt"/>
                             <constraint firstAttribute="trailing" secondItem="x86-QW-fhz" secondAttribute="trailing" constant="8" id="EIH-na-iDk"/>
-                            <constraint firstItem="x86-QW-fhz" firstAttribute="top" secondItem="BvA-M1-2Q9" secondAttribute="bottom" constant="-20" id="Ta9-ey-aHs"/>
                             <constraint firstAttribute="trailing" secondItem="Lg7-F0-sLq" secondAttribute="trailing" constant="8" id="eoI-nW-ZTH"/>
                             <constraint firstItem="cq2-x6-ymr" firstAttribute="leading" secondItem="reh-uc-5wY" secondAttribute="leading" constant="8" id="ff1-TM-g4v"/>
                             <constraint firstItem="cq2-x6-ymr" firstAttribute="top" secondItem="BvA-M1-2Q9" secondAttribute="bottom" constant="8" id="j5G-g2-qHn"/>
                             <constraint firstAttribute="trailing" secondItem="cq2-x6-ymr" secondAttribute="trailing" constant="8" id="rlQ-Ve-odn"/>
                             <constraint firstItem="R0H-r1-nGQ" firstAttribute="top" secondItem="x86-QW-fhz" secondAttribute="bottom" id="uaT-JP-dCy"/>
+                            <constraint firstItem="x86-QW-fhz" firstAttribute="top" secondItem="Lg7-F0-sLq" secondAttribute="bottom" constant="5" id="zLN-eM-RSu"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="T2C-Uj-y82">
